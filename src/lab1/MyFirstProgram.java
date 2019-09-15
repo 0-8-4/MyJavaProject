@@ -28,7 +28,13 @@ public class MyFirstProgram {
         System.out.println("f value is " + f);
         System.out.println("f/2 value is " + f / 2);
 
-        Homework.rua();
+        System.out.println("----------------------------------------------------");
+        System.out.println("Homework");
+        System.out.println("----------------------------------------------------");
+
+        Homework hw = new Homework(72, 1.8, 390);
+        hw.countGas();
+
 
     }
 }
