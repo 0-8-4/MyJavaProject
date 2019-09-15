@@ -28,6 +28,7 @@ public class MyFirstProgram {
         System.out.println("f value is " + f);
         System.out.println("f/2 value is " + f / 2);
 
+        Homework.rua();
 
     }
 }
